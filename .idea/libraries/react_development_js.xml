@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="react.development.js" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/react-test/work/js/react.development.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/react-test/work/js/react.development.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
