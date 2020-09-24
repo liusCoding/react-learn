@@ -1,16 +1,21 @@
-import React,{Component} from 'react'
-import logo from '../logo.svg'
+import React from 'react'
+import Search from './search'
+import UserList from './user-list'
 
-export default class App extends Component {
+export default class App extends React.Component {
+
+
+
     render() {
-        return  (
-            <div>
-                <img src={logo} className='logo' alt="logo"/>
-
-                <p className='title'>
-                    我的第一个React 组件
-                </p>
+        return (
+            <div className="container">
+                <section className="jumbotron">
+                    <h3 className="jumbotron-heading">Search Github Users</h3>
+                    <Search />
+                </section>
+                <UserList />
             </div>
-        ) 
+        )
     }
-} 
+
+}

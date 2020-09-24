@@ -12343,7 +12343,7 @@ var ReactControlledValuePropTypes = {
   };
 }
 
-// TODO: direct imports like some-package/src/* are bad. Fix me.
+// TODO: direct imports like some-package/src-base/* are bad. Fix me.
 var getCurrentFiberOwnerName$2 = ReactDebugCurrentFiber.getCurrentFiberOwnerName;
 var getCurrentFiberStackAddendum$3 = ReactDebugCurrentFiber.getCurrentFiberStackAddendum;
 
@@ -12633,7 +12633,7 @@ function getHostProps$1(element, props) {
   return hostProps;
 }
 
-// TODO: direct imports like some-package/src/* are bad. Fix me.
+// TODO: direct imports like some-package/src-base/* are bad. Fix me.
 var getCurrentFiberOwnerName$3 = ReactDebugCurrentFiber.getCurrentFiberOwnerName;
 var getCurrentFiberStackAddendum$4 = ReactDebugCurrentFiber.getCurrentFiberStackAddendum;
 
@@ -12799,7 +12799,7 @@ function restoreControlledState$2(element, props) {
   }
 }
 
-// TODO: direct imports like some-package/src/* are bad. Fix me.
+// TODO: direct imports like some-package/src-base/* are bad. Fix me.
 var getCurrentFiberStackAddendum$5 = ReactDebugCurrentFiber.getCurrentFiberStackAddendum;
 
 var didWarnValDefaultVal = false;
@@ -13463,7 +13463,7 @@ function isCustomComponent(tagName, props) {
     case 'annotation-xml':
     case 'color-profile':
     case 'font-face':
-    case 'font-face-src':
+    case 'font-face-src-base':
     case 'font-face-uri':
     case 'font-face-format':
     case 'font-face-name':
@@ -14274,7 +14274,7 @@ function validateProperties$2(type, props, canUseEventSystem) {
   warnUnknownProperties(type, props, canUseEventSystem);
 }
 
-// TODO: direct imports like some-package/src/* are bad. Fix me.
+// TODO: direct imports like some-package/src-base/* are bad. Fix me.
 var getCurrentFiberOwnerName$1 = ReactDebugCurrentFiber.getCurrentFiberOwnerName;
 var getCurrentFiberStackAddendum$2 = ReactDebugCurrentFiber.getCurrentFiberStackAddendum;
 
@@ -15205,7 +15205,7 @@ var ReactDOMFiberComponent = Object.freeze({
 	restoreControlledState: restoreControlledState
 });
 
-// TODO: direct imports like some-package/src/* are bad. Fix me.
+// TODO: direct imports like some-package/src-base/* are bad. Fix me.
 var getCurrentFiberStackAddendum$6 = ReactDebugCurrentFiber.getCurrentFiberStackAddendum;
 
 var validateDOMNesting = emptyFunction_1;
@@ -15515,7 +15515,7 @@ var validateDOMNesting = emptyFunction_1;
 
 var validateDOMNesting$1 = validateDOMNesting;
 
-// TODO: direct imports like some-package/src/* are bad. Fix me.
+// TODO: direct imports like some-package/src-base/* are bad. Fix me.
 var createElement = createElement$1;
 var createTextNode = createTextNode$1;
 var setInitialProperties = setInitialProperties$1;
